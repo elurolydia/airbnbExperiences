@@ -4,22 +4,33 @@ import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Writeup from './components/Writeup';
 import Items from './components/Items';
+import data from './components/ItemsArray';
+
 
 
 
 function App() {
 
+  const elements = data.map(item => {
+      return (
+        <Items
+          key = {item.id}
+          image = {item.image}
+          rating = {item.rating}
+          ratingNumber = {item.ratingNumber}
+          country = {item.country}
+          title = {item.title}
+          price = {item.price}
+      />
+      )
+  })
 
   return (
     <div>
       <Navbar />
       <Body />
       <Writeup />
-      <div id='testing'>
-      <Items />
-      <Items />
-      <Items />
-      </div>
+      {elements} 
       
     </div>
   )

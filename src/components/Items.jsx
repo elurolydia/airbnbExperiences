@@ -1,18 +1,17 @@
 import React from "react";
-import image1 from "./images/image1.png";
 import star from "./images/star.png";
 
 
-export default function Item () {
+export default function Item (props) {
     return (
         <div id="itemsContainer">
-            <img id="itemImage" src={image1} />
+            <img id="itemImage" src={props.image} />
             <p id="ratingContainer">
                 <img id="starImage" src={star} />
-                <span id="rating">5.0 <span id="country">(6).USA</span></span>
+                <span id="rating">{props.rating} <span id="country">({props.ratingNumber}).{props.country}</span></span>
             </p>
-            <p id="itemTitle">Life lessons with Katie Zaferes</p>
-            <p id="itemPrice">From $136 <span id="perPerson">/ person</span></p>
+            <p id="itemTitle">{props.title}</p>
+            <p id="itemPrice">From {props.price} <span id="perPerson">/ person</span></p>
         </div>
     )
 }
