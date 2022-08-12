@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  font-family: Poppins;
 }
 
 nav {
@@ -16,4 +17,67 @@ nav {
 nav img {
   width: 85px;
   height: 30px;
+}
+
+#mainBody {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; 
+  margin-bottom: 40px;
+}
+
+#mainBody img {
+  height: 350px;
+  max-width: 1000px;
+  width: 80vw;
+}
+
+#writeUp {
+  padding-left: 50px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  width: 347px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+#writeUp p {
+  width: 600px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+  #mainBody img {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #mainBody img {
+    height: 230px;
+    width: 85vw;
+  }
+
+  #writeUp p {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #mainBody img {
+    height: 200px;
+    width: 88vw;
+  }
 }

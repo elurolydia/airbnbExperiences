@@ -2,6 +2,7 @@
 import './App.css'
 import Navbar from './components/Navbar';
 import Body from './components/Body';
+import Writeup from './components/Writeup';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navbar />
       <Body />
+      <Writeup />
     </div>
   )
 }
