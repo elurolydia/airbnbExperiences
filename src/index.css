@@ -15,8 +15,8 @@ nav {
 }
 
 nav img {
-  width: 85px;
-  height: 30px;
+  width: 82px;
+  height: 27px;
 }
 
 #mainBody {
@@ -34,6 +34,7 @@ nav img {
 
 #writeUp {
   padding-left: 50px;
+  /* margin-bottom: 40px; */
 }
 
 h1 {
@@ -55,8 +56,72 @@ h1 {
   line-height: 110%;
 }
 
+#itemsContainer {
+  margin: 40px 120px 40px 0;
+  padding-left: 50px;
+}
 
+#itemImage {
+  width: 300px;
+  height: 400px;
+}
 
+#ratingContainer {
+  /* display: flex;
+  flex-direction: row; */
+  width: auto;
+  margin-top: 8px;
+  align-items: center;
+}
+
+#starImage {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+#rating {
+  width: 18px;
+  /* height: 17px; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 110%;
+  color: #222222;
+}
+
+#country {
+  color: #918E9B;
+}
+
+#itemTitle {
+  margin-top: 8px;
+  width: 270px;
+  /* height: 17px; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+#itemPrice {
+  margin-top: 8px;
+  width: 144px;
+  /* height: 17px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+}
+
+#perPerson {
+  font-weight: 300;
+}
+
+#testing {
+  display: flex;
+  overflow-x: auto;
+}
 
 @media only screen and (max-width: 900px) {
   #mainBody img {
