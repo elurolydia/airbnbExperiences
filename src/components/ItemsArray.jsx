@@ -32,7 +32,17 @@ const data = [
         country: "USA",
         title: "Group Mountain Biking",
         price: "$50"
-    }
+    },
+
+    // {
+    //     id : 4,
+    //     image: zaferes,
+    //     rating: '5.0',
+    //     ratingNumber: 6,
+    //     country: "USA",
+    //     title: "Life lessons with Katie Zaferes",
+    //     price: "$136"
+    // }
 ]
 
 

@@ -56,14 +56,19 @@ h1 {
   line-height: 110%;
 }
 
-#itemsContainer {
+#cardsContainer {
+  display: flex;
   margin: 40px 0;
   padding-left: 50px;
+  padding-right: 50px;
+  gap: 30px;
+  justify-content: space-between;
+  overflow-x: auto;
 }
 
 #itemImage {
   width: 300px;
-  height: 400px;
+  height: 350px;
 }
 
 #ratingContainer {
@@ -118,10 +123,6 @@ h1 {
   font-weight: 300;
 }
 
-#testing {
-  display: flex;
-  overflow-x: auto;
-}
 
 @media only screen and (max-width: 900px) {
   #mainBody img {
@@ -148,11 +149,31 @@ h1 {
   #writeUp p {
     width: 60vw;
   }
+
+  #cardsContainer {
+    padding-left: 35px;
+    padding-right: 35px;
+    gap: 30px;
+  }
+
+  #itemImage {
+    width: 220px;
+    height: 280px;
+  }
+
+  #itemTitle {
+    width: 220px;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 430px) {
   #mainBody img {
     height: 200px;
     width: 88vw;
+  }
+
+  #writeUp p {
+    width: 72vw;
   }
 }

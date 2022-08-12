@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <Body />
       <Writeup />
-      {elements} 
+      <div id='cardsContainer'>{elements}</div> 
       
     </div>
   )
