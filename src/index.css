@@ -70,8 +70,18 @@ h1 {
     width: 85vw;
   }
 
+  #writeUp {
+    padding-left: 35px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    width: auto;
+    height: auto;
+  }
+
   #writeUp p {
-    width: 320px;
+    width: 60vw;
   }
 }
 
